@@ -1,4 +1,4 @@
-package inheritance;
+package overloading;
 
 public class Calculator { //method overloading by changing data type of args.
 	void sum (int a, int b) {
@@ -14,3 +14,4 @@ public static void main(String []args) {
 	cal1.sum(20, 20);
 }
 }
+

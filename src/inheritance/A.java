@@ -3,29 +3,29 @@ package inheritance;
 public class A {
 	int a=20;
 	void showA() {
-	System.out.println("A");
+	System.out.println("RK");
 	}
 }
 class B extends A{
 	int b = 10;
 	void disp() {
-		System.out.println("B");
+		System.out.println("Ramesh");
 	}
 	
 }
 class C extends B{
 	int c = 15;
 	void display() {
-		System.out.println("C");
+		System.out.println("khadka");
 	}
 
 	public static void main(String[]args){
 		C obj=new C();
 		obj.display();
 		obj.showA();
-		B obj1 = new B();
-		obj1.disp();
-		obj1.showA();
+		//B obj1 = new B();
+		obj.disp();
+		//obj1.showA();
 		
 		
 }
