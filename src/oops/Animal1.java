@@ -22,7 +22,9 @@ public class Animal1 {
 		animal.name = "Elephant";
 		animal.year = 2020;
 		animal.color = "White";
+		animal.display(animal);
 		Animal1 animal1 = new Animal1("elephant",2020,"blue");
-		animal1.display(animal);
+		animal1.display(animal1);
+		
 	}
 }

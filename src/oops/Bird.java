@@ -14,7 +14,7 @@ public class Bird {
 			
 		}
 		 void display(Bird a) {
-			 System.out.println("The bird name is:"+a.name+"age is:"+a.age+"color is:"+a.color);
+			 System.out.println("The bird name is:"+a.name+ "age is:"+a.age+"color is:"+a.color);
 			 
 		}
 		 public static void main(String[]args) {
@@ -22,6 +22,7 @@ public class Bird {
 			 bird.name = "Dove";
 			 bird.age = 2;
 			 bird.color="blue";
+			 bird.display(bird);
 			 
 	}
 }
