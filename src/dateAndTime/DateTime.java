@@ -7,8 +7,10 @@ public class DateTime {
 	public static void main(String[] args) {
 		LocalDate myobj = LocalDate.now();
 			System.out.println(myobj);
+			
 
 	}
 	
 
 }
+// write a program isleaper.
