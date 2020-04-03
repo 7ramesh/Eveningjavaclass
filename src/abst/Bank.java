@@ -1,13 +1,20 @@
 package abst;
 
-abstract class Bank {
-	public abstract String getBankName();
+public class Bank extends AustinTelco{
 	
-	protected abstract int getRate();
+	public  String getBankName() {
+		return "Bank";
+	}
 	
-	public int serviceChangeRate = 4;
+	protected  int getRate() {
+		return 5;
+	}
+	
+	public double serviceChargeRate() {
+		return 40;
+	}
 	
 	protected double getDollarExchangeRate() {
-		return 112.5;
+		return 111.5;
 	}
 }

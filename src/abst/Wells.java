@@ -1,14 +1,20 @@
 package abst;
 
-abstract class Wells extends Bank {
-	@Override
-	public String getBankName() {
-		return "Wells";
+ class Wells extends Bank {
+	
+public  String getBankName() {
+	return  "Wells Fargo";
 	}
-	@Override
-	protected int getRate() {
-		return 20;
-		
+	protected  int getRate() {
+		return 7;
+	}
+	
+	public double serviceChargeRate() {
+		return 45;
+	}
+	
+	protected double getDollarExchangeRate() {
+		return 119.5;
 	}
 
 }

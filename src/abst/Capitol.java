@@ -1,13 +1,19 @@
 package abst;
 
-abstract class Capitol extends Bank {
-	@Override
-	public String getBankName() {
-		return "Capitol";
+class Capitol extends City  {
+	
+	public  String getBankName() {
+		return "Capitol Bank";
+}
+	protected  int getRate() {
+		return 3;
+}
+	public double serviceChargeRate() {
+		return 8;
 	}
-	@Override
-	protected int getRate() {
-		return 6;
+	
+	protected double getDollarExchangeRate() {
+		return 115.5;
 		
 	}
 	
